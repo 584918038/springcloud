@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: config-server
+
+  cloud:
+    consul:
+      host: 127.0.0.1     #consul\u5730\u5740
+      port: 8500          #consul\u7AEF\u53E3\u53F7
+    config:
+      server:
+        git:              #\u914D\u7F6E\u6587\u4EF6 git \u5730\u5740
+          uri: https://github.com/584918038/config.git
