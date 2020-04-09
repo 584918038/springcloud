@@ -1,61 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b0bbbb2-529c-4219-aa5e-916801907254" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/xsh/commons/CommonsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/src/test/java/com/xsh/commons/CommonsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-provider/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-provider/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-provider/src/main/java/com/xsh/feignprovider/FeignProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-provider/src/main/java/com/xsh/feignprovider/domain/AdvertGroupVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-provider/src/main/java/com/xsh/feignprovider/service/AdvertGroupRemoteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-provider/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-provider/src/test/java/com/xsh/feignprovider/FeignProviderApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/xsh/feign/FeignApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/xsh/feign/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/xsh/feign/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/xsh/feign/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/xsh/feign/service/UserFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/src/test/java/com/xsh/feign/FeignApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="5b0bbbb2-529c-4219-aa5e-916801907254" name="Default Changelist" comment="feign 调用&#10;2020年04月09日10:35:52">
+      <change afterPath="$PROJECT_DIR$/consul-client/target/classes/META-INF/consul-client.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-client/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-client/target/classes/com/xsh/AppConfigClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-client/target/classes/com/xsh/controller/TestConfigServerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-single/config-single.iml" beforeDir="false" afterPath="$PROJECT_DIR$/config-single/config-single.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consul-client/consul-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/consul-client/consul-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consul-client/src/main/java/com/xsh/TestConfigServerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consul-client/src/main/java/com/xsh/controller/TestConfigServerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consul-consumer/consul-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/consul-consumer/consul-consumer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consul-producer/consul-producer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/consul-producer/consul-producer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consul-producer2/consul-producer2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/consul-producer2/consul-producer2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud/.gitattributes" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +23,9 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_COMMON_BRANCH" value="master" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -241,8 +194,16 @@
       <workItem from="1586239088506" duration="7327000" />
       <workItem from="1586261216669" duration="15611000" />
       <workItem from="1586329855145" duration="3822000" />
-      <workItem from="1586393629019" duration="5190000" />
+      <workItem from="1586393629019" duration="5632000" />
     </task>
+    <task id="LOCAL-00001" summary="feign 调用&#10;2020年04月09日10:35:52">
+      <created>1586399762320</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586399762320</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,5 +224,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feign 调用&#10;2020年04月09日10:35:52" />
+    <option name="LAST_COMMIT_MESSAGE" value="feign 调用&#10;2020年04月09日10:35:52" />
   </component>
 </project>

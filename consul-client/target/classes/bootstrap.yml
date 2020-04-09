@@ -1,0 +1,22 @@
+#server:
+#  port: 8000
+spring:
+  application:
+    name: config-single-client
+
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+
+    config:
+      profile: dev          #选择获取的配置文件是dev还是 test之内的；git仓库配置文件命名格式  ${applicatio.name}-dev/test.yml
+      discovery:
+        enabled: true
+        service-id: config-server   #config服务器的 ${applicatio.name}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health  #暴露手动刷新接口
