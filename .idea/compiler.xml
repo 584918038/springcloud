@@ -7,17 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="consul" />
+        <module name="commons" />
         <module name="config-client" />
+        <module name="consul-producer" />
         <module name="consul-producer2" />
+        <module name="feign" />
         <module name="consul-client" />
         <module name="consul-consumer" />
+        <module name="feign-provider" />
         <module name="config-single" />
-        <module name="consul-producer" />
+        <module name="consul" />
         <module name="config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="commons" target="1.8" />
       <module name="config" target="1.8" />
       <module name="config-client" target="1.8" />
       <module name="config-single" target="1.8" />
@@ -26,11 +30,14 @@
       <module name="consul-consumer" target="1.8" />
       <module name="consul-producer" target="1.8" />
       <module name="consul-producer2" target="1.8" />
+      <module name="feign" target="1.8" />
+      <module name="feign-provider" target="1.8" />
       <module name="springcloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="commons" options="-parameters" />
       <module name="config" options="-parameters" />
       <module name="config-client" options="-parameters" />
       <module name="config-single" options="-parameters" />
@@ -39,6 +46,8 @@
       <module name="consul-consumer" options="-parameters" />
       <module name="consul-producer" options="-parameters" />
       <module name="consul-producer2" options="-parameters" />
+      <module name="feign" options="-parameters" />
+      <module name="feign-provider" options="-parameters" />
       <module name="springcloud" options="-parameters" />
     </option>
   </component>
